@@ -1,0 +1,120 @@
+:root {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+body {
+  background-color: hsl(0, 0%, 97%);
+}
+
+/* TOP */
+
+header {
+  height: 6.5vh;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: 1px solid hsl(0, 0%, 83%);
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo > svg {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  margin-right: 10px;
+  fill: hsl(210, 90%, 40%);
+}
+
+.header__search {
+  height: 14px;
+  border-radius: 5px;
+  padding: 10px;
+  color: hsl(0, 0%, 55%);
+  background-color: hsl(210, 42%, 95%);
+  display: flex;
+  align-items: center;
+}
+
+.header__search > input {
+  outline: none;
+  border: none;
+  background: none;
+  text-indent: 10px;
+}
+
+.header__search {
+  fill: hsl(0, 0%, 55%);
+}
+
+.header__search:hover {
+  fill: hsl(0, 0%, 0%);
+}
+
+.header__right {
+}
+nav {
+  display: flex;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  width: 80px;
+  font-size: 0.7rem;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: hsl(0, 0%, 55%);
+  fill: hsl(0, 0%, 55%);
+}
+
+a:hover {
+  color: hsl(0, 0%, 0%);
+  fill: hsl(0, 0%, 0%);
+}
+
+#menu-photo {
+  width: 1.4rem;
+  border-radius: 50%;
+}
+
+/* MID */
+
+.inf__contact {
+  margin-top: 20px;
+  width: 77vw;
+  height: 40vh;
+  background-color: lime;
+  border-radius: 2%;
+}
+
+.img__contact__bg {
+  border-top-left-radius: 1vh;
+  border-top-right-radius: 1vh;
+  position: relative;
+}
+
+.img__contact__photo {
+  width: 15vw;
+  height: 15vw;
+  margin-left: 20px;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 83%);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50%;
+}
